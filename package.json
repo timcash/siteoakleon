@@ -1,0 +1,32 @@
+{
+  "name": "oakleon",
+  "version": "0.0.0",
+  "description": "webpage",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp": "~3.5.2",
+    "gulp-concat": "~2.1.7",
+    "gulp-rename": "~0.2.2",
+    "gulp-sass": "~0.6.0",
+    "gulp-jshint": "~1.4.0",
+    "gulp-uglify": "~0.2.0",
+    "gulp-util": "~2.2.14",
+    "gulp-livereload": "~1.0.1",
+    "gulp-bower": "0.0.2",
+    "gulp-usemin": "~0.1.4",
+    "gulp-less": "~1.2.1"
+  },
+  "devDependencies": {
+    "express": "~3.4.8",
+    "connect-livereload": "~0.3.2",
+    "tiny-lr": "0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Cash",
+  "license": "BSD-2-Clause"
+}

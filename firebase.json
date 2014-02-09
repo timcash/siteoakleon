@@ -1,0 +1,5 @@
+{
+  "firebase": "oakleon",
+  "public": "app",
+  "rules": "config/security-rules.json"
+}

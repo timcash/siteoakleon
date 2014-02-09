@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="logo" horiz-adv-x="1000" >
+<font-face font-family="logo" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="network" unicode="&#xe800;" d="m224 504q-22 0-42-10q-48 52-92 128q54 74 128 118q92-38 152-82q-6-16-6-32q0-6 4-22q-62-48-116-104q-16 4-28 4z m-98-98q0-34 20-60q-60-114-80-232q-66 106-66 236q0 110 50 206q38-62 84-112q-8-24-8-38z m336 318q-28 0-50-14q-58 42-114 70q84 30 162 30q120 0 230-62q-76-14-162-50q-26 26-66 26z m146-460q-160 24-290 112q4 20 4 30q0 24-14 52q38 44 98 90q26-20 56-20q14 0 38 8q94-108 134-240q-16-14-26-32z m128-132q38 14 54 60q58 4 108 18q-46-146-166-232q6 48 6 98q0 10-1 28t-1 28z m-150 66q-190-96-304-272q-90 36-158 110q12 144 80 274q6-2 20-2q30 0 52 14q142-98 310-124z m184 492q150-136 150-340q0-22-4-66q-64-18-130-24q-24 56-88 60q-48 146-148 264q10 20 10 42l0 10q100 42 210 54z m-136-544q14-10 32-18q2-18 2-52q0-80-14-144q-86-42-194-42q-58 0-112 12q110 160 286 244z" horiz-adv-x="920" />
+</font>
+</defs>
+</svg>
