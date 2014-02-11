@@ -155,33 +155,36 @@
     </div>
 
     <a name="About">
+
     <div class="ribbon l-box-lrg pure-g">
+        <div class="content">
+        <h2 class="content-head is-center content-head-ribbon">About Us</h2>
+            <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
+                <img class="pure-img-responsive" alt="File Icons" width="250" src="img/jason.png">
+            </div>
+            <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
 
-        <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="250" src="img/150.png">
+                <h2 class="content-head content-head-ribbon">Jason Walton Co-founder</h2>
+
+                <p>
+                     Mr. Walton leads the business development and marketing for Oakleon. Prior to co-founding Oakleon with Mr. Cash, he worked in the pest control industry. Since 1997, Mr. Walton founded 15 pest control companies with 22 branch locations in 8 different states. Mr. Walton's brands have included Moxie Pest Control, Homefront Pest Control, Joshua's Pest Control, and Mayday Pest Control. The companies founded and operated by Mr. Walton have combined value over $60 million in annual revenue. Prior to pest control ownership, Mr. Walton worked with Eclipse Marketing. He received a B.A. in Accounting from Brigham Young University.
+                </p>
+            </div>
+
+            <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
+                <img class="pure-img-responsive" alt="File Icons" width="250" src="img/tim.png">
+            </div>
+            <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
+
+                <h2 class="content-head content-head-ribbon">Tim Cash Co-founder</h2>
+
+                <p>
+                    Tim is leading the engineering effort at Oakleon. Before Oakleon he spent six years in the Air Force and ten years in the Intelligence Community where he led analytic, operational, and development teams. He has delieved a number of products ranging from web application used for national investigations to 3D visualisation software for geospatial analysis. While consulting for the government Tim pushed for more open access to information and expanded use of open source software. Tim holds a degree in Applied Mathematics and (most) of another in Computer Science. 
+                </p>
+            </div>
+
+
         </div>
-        <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
-
-            <h2 class="content-head content-head-ribbon">Jason Walton Co-founder</h2>
-
-            <p>
-                 Mr. Walton leads the business development and marketing for Oakleon. Prior to co-founding Oakleon with Mr. Cash, he worked in the pest control industry. Since 1997, Mr. Walton founded 15 pest control companies with 22 branch locations in 8 different states. Mr. Walton's brands have included Moxie Pest Control, Homefront Pest Control, Joshua's Pest Control, and Mayday Pest Control. The companies founded and operated by Mr. Walton have combined value over $60 million in annual revenue. Prior to pest control ownership, Mr. Walton worked with Eclipse Marketing. He received a B.A. in Accounting from Brigham Young University.
-            </p>
-        </div>
-
-        <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="250" src="img/tim.png">
-        </div>
-        <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
-
-            <h2 class="content-head content-head-ribbon">Tim Cash Co-founder</h2>
-
-            <p>
-                Tim is leading the engineering effort at Oakleon. Before Oakleon he spent six years in the Air Force and ten years in the Intelligence Community where he led analytic and development teams. Tim holds a degree in Applied Mathematics and (most) of another in Computer Science. Much of his time is spent thinking about better ways to distribute and make decisions based upon complex and near realtime information. 
-            </p>
-        </div>
-
-
     </div>
 
     <a name="Jobs">
@@ -191,17 +194,29 @@
         <div class="pure-g">
 
             <div class="l-box-lrg pure-u-1 pure-u-med-3-5">
-                <h4>Apply with a project link</h4>
+                <h4>Application Details</h4>
                 <p>
-                    We are looking for talented software engineers for full stack development. Everything is needed including frontend, mobile, automated testing, continuous integration and dev ops. Provide a link to page that outlines your solution to one of the application challenges (see below) and any other details about yourself. A github page is a good way to do this. Ready to take on the challenge of architecting your own part of the project?
+                    We are looking for talented software engineers for full stack development and subject matter experts in the following areas. DevOps with Docker, Machine Learning, Operations Research, Frontend design with Angular (soon Famo.us), and Javascript. To Apply provide a link to page that outlines your solution to one of the application projects (see below) and other details about yourself that you feel highlights your qualifications. A github repository is a good way to do this. 
+                    <br><br>
+
+                    Ready to take on the challenge of architecting and leading your own part of the project? Let us know right at the top of the README in your project repository. We really want to talk with you! 
                 </p>
 
                 <h4>Application Project</h4>
                 <p>
-                    Please select and submit one of the following projects via a github gist or new repository.
+                    Please select and submit one of the following projects via a new Github repository. Include a README with a synopsis of your solution.
                     <ul>
-                    <li>Project Euler
-                    <a href="https://projecteuler.net/problem=54"> Problem 54</a></li>
+                        <li>
+                            Solve <a href="https://projecteuler.net/problem=54">Project Euler problem #54</a>
+                        </li>
+                        <li>Implement a TSP (<a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem">Traveling Salesman Problem</a>) solver using a Genetic Algorithm
+                            
+                        </li>
+                        <li>Cluster management with <a href="https://www.docker.io/"> Docker</a> and GCE (<a href="https://cloud.google.com/products/compute-engine/">Goolge Compute Engine</a>). Create a program that starts up a user select value n where 3 &lt;= n &lt;= 10 GCE instances. Each instance upon startup should build and run a simple docker file as a daemon. The system should be able to detect a node failure and spin up a new GCE instance so that n == the user selected value.  
+                        </li>
+                        <li>Project Euler
+                            <a href="https://projecteuler.net/problem=54"> Problem 54</a>
+                        </li>
                     </ul>
                 </p>
             </div>
