@@ -33,7 +33,8 @@
  */
 body {
     line-height: 1.7em;
-    color: @darkHighlight;
+    color: #7f8c8d;
+    font-size: 13px;
 }
 
 h1,
@@ -43,13 +44,7 @@ h4,
 h5,
 h6,
 label {
-    color: @darkHighlight;
-}
-
-.backdrop {
-    margin-top: 60px;
-	min-height: 640;
-	min-width: 640;
+    color: #34495e;
 }
 
 .pure-img-responsive {
@@ -87,13 +82,11 @@ label {
 }
 
 .pure-form input[type] {
-    //border: 2px solid #ddd;
+    border: 2px solid #ddd;
     box-shadow: none;
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
-    border-radius: 1px;
-    padding: 1em;
 }
 
 /*
@@ -101,11 +94,10 @@ label {
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: @darkHighlight;
-    color: @light;
+    background-color: #1f8dd6;
+    color: white;
     padding: 0.5em 2em;
-    border-radius: 1px;
-    padding: 1em;
+    border-radius: 5px;
 }
 
 a.pure-button-primary {
@@ -127,7 +119,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu.pure-menu-open {
-    background: @dark;
+    background: #2d3e50;
 }
 .pure-menu.pure-menu-open.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -138,7 +130,7 @@ a.pure-button-primary {
 
 .home-menu .pure-menu-heading {
     color: white;
-
+    font-weight: 400;
     font-size: 120%;
 }
 
@@ -147,14 +139,13 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: @dimlight;
+    color: #6FBEF3;
 }
-
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: @light;
+    color: #AECFE5;
 }
 
 
@@ -164,7 +155,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: white;
+    background: #1f8dd6;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -188,19 +179,21 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 10em !important;
-    font-style: bold;
-    color: @dark;
-
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: @darkHighlight;
+    color: white;
     letter-spacing: 0.05em;
     opacity: 0.8;
-    padding-top: 50px;
-    text-align: right;
 }
 
 /*
@@ -214,7 +207,7 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: @dimlight;
+    background: white;
 
 }
 
@@ -233,7 +226,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: @darkHighlight;
+    color: #1f8dd6;
 }
     .content-subhead i {
         margin-right: 7px;
@@ -241,14 +234,13 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: @darkHighlight;
-    color: @light;
+    background: #2d3e50;
+    color: #aaa;
 }
 
 /* This is the class used for the footer */
 .footer {
-    background: @dark;
-    color: white;
+    background: #111;
 }
 
 /*
@@ -311,3 +303,4 @@ a.pure-button-primary {
         font-size: 300%;
     }
 }
+
