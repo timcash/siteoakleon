@@ -54,6 +54,7 @@ label {
   font-size: 100%;
   width: 100%;
   margin-bottom: 1em;
+  border-radius: 0px;
 }
 /*
  * -- PURE BUTTON STYLES --
@@ -63,12 +64,12 @@ label {
   background-color: #1f8dd6;
   color: white;
   padding: 0.5em 2em;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 a.pure-button-primary {
   background: white;
   color: #1f8dd6;
-  border-radius: 5px;
+  border-radius: 0px;
   font-size: 120%;
 }
 /*
